@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "big-magic-ai/correct-english-grammar",
+  "version": "0.1.0",
+  "title": "[Big Magic AI] Correct English Grammar",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Want to write in English to reach a broader audience but feeling shy about your grammar? Type in the text you wish to proofread using 'Big Magic AI: Correct English Grammar'",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "big-magic-ai",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

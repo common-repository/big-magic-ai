@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "big-magic-ai/generate-image",
+  "version": "0.1.0",
+  "title": "[Big Magic AI] Generate Image",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "You no longer need to leave your current browser tab to get an image. Simply generate an image within the text editor using '[Big Magic AI] Generate Image.' Not going to lie, it uses DALL·E 2, so please manage your expectations.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "big-magic-ai",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

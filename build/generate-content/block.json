@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "big-magic-ai/generate-content",
+  "version": "0.1.0",
+  "title": "[Big Magic AI] Generate Content",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Stuck writing an introduction? Use '[Big Magic AI] Generate Content' to have AI assist you in generating content. However, don't overuse it. Ensure that your unique voice is included in your writing.",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "big-magic-ai",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
